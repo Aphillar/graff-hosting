@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graff Hosting</title>
+    <link rel="icon" type="image/png" href="grafflogo.PNG">
+    <style>
+        #TpNavBar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0d0d0d;
+            padding: 10px;
+        }
+        #TpNavBar a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        #TpNavBar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        #TpNavBar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .logo {
+            height: 50px;
+        }
+        .main-stuff {
+            margin-top: 50px;
+            background-color: #0E0D0D;
+        }
+    </style>
+</head>
+<body>
+    <div id="TpNavBar">
+        <img src="grafflogo.PNG" alt="Graff Hosting Logo" class="logo">
+        <div>
+            <a href="#" id="home" class="active">Home</a>
+            <a href="#" id="services">Services</a>
+            <a href="#" id="client-portal">Client Portal</a>
+        </div>
+        <div>
+            <a href="#" id="signup">Sign Up</a>
+            <a href="#" id="login">Login</a>
+        </div>
+    </div>
+    <div id="main-stuff">
+        <!-- Main content goes here -->
+    </div>
+</body>
+</html>
