@@ -7,7 +7,6 @@
         #TpNavBar {
             display: flex;
             justify-content: space-between;
-            align-items: center;
             background-color: #0d0d0d;
             padding: 10px;
         }
@@ -21,10 +20,27 @@
             background-color: #ddd;
             color: black;
         }
-        #TpNavBar a.active {
-            background-color: #4CAF50;
-            color: white;
+
+        #home {
+            align-items: left;
         }
+
+        #services {
+            align-items: left;
+        }
+
+        #client-portal {
+            align-items: left;
+        }
+
+        #signup {
+            align-items: right;
+        }
+
+        #login {
+            align-items: right;
+        }
+        
         .logo {
             height: 50px;
         }
@@ -34,17 +50,17 @@
         }
     </style>
 </head>
-<body>
+<body style="margin: 0px; padding: 0px;">
     <div id="TpNavBar">
         <img src="grafflogo.PNG" alt="Graff Hosting Logo" class="logo">
         <div>
-            <a href="#" id="home" class="active">Home</a>
+            <a href="#" id="home">Home</a>
             <a href="#" id="services">Services</a>
             <a href="#" id="client-portal">Client Portal</a>
         </div>
         <div>
-            <a href="#" id="signup">Sign Up</a>
             <a href="#" id="login">Login</a>
+            <a href="#" id="signup">Sign Up</a>
         </div>
     </div>
     <div id="main-stuff">
