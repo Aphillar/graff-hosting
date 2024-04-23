@@ -6,8 +6,8 @@
     <style>
         #TpNavBar {
             display: flex;
-            align-items: center; /* Align items vertically */
-            justify-content: space-between; /* Distribute space between elements */
+            align-items: center;
+            justify-content: space-between;
             background-color: #0d0d0d;
             padding: 10px;
         }
@@ -23,18 +23,19 @@
         }
 
         #TpNavBar > div:first-child {
-            display: flex; /* Make the div a flex container */
-            align-items: center; /* Vertically center the logo and buttons */
+            display: flex;
+            align-items: center;
         }
 
         #TpNavBar > div:last-child {
-            display: flex; /* Make the div a flex container */
-            gap: 10px; /* Add space between the buttons */
+            display: flex;
+            gap: 10px;
+            margin-left: auto; /* Push the buttons to the right */
         }
 
         .logo {
             height: 50px;
-            margin-right: 20px; /* Add space between the logo and the buttons */
+            margin-right: 20px;
         }
         .main-stuff {
             margin-top: 50px;
@@ -45,6 +46,7 @@
 <body style="margin: 0px; padding: 0px;">
     <div id="TpNavBar">
         <img src="grafflogo.PNG" alt="Graff Hosting Logo" class="logo">
+        <span>Graff Hosting</span>
         <div>
             <a href="home" id="home">Home</a>
             <a href="services" id="services">Services</a>
