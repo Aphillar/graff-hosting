@@ -58,12 +58,16 @@
         </div>
         <div>
             <a href="login" id="login">Login</a>
-            <a href="signup" id="signup">Sign Up</a>
         </div>
     </div>
     <div id="main-stuff">
         <!-- Main content goes here -->
     </div>
+        <script>
+        document.getElementById('login').addEventListener('click', function() {
+            window.location.href = 'https://discord.com/oauth2/authorize?client_id=1229857313020706817&response_type=code&redirect_uri=https%3A%2F%2Fgraff-hosting.pages.dev%2Fhome&scope=openid';
+        });
+    </script>
 </body>
 </html>
 
